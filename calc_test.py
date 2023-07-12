@@ -1,7 +1,12 @@
 
-from calc import add
+from calc import sum
 
-def test_add():
+def test_summ():
     first = 2
     second = 1
-    assert add(first, second) == 3
+    assert sum(first, second) == 3
+
+def subtruct():
+    first = 2
+    second = 1
+    assert sum(first, second) == 3
